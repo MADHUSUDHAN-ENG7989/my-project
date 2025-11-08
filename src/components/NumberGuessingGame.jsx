@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Trophy, RefreshCw, Copy, Check, Users } from 'lucide-react';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const API_URL = process.env.REACT_APP_API_URL || 'https://my-project1-s19k.onrender.com';
 
 export default function OnlineNumberGuessingGame() {
     const [gameState, setGameState] = useState('menu');
