@@ -1,11 +1,9 @@
 import NumberGuessingGame from './components/NumberGuessingGame';
 
 function App() {
-    return ( < div >
-        <
-        NumberGuessingGame / >
-        <
-        /div>
+    return ( <div>
+        <NumberGuessingGame/>
+        </div>
     );
 }
 
